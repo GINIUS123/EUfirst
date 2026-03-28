@@ -7,7 +7,7 @@
 <p align="center">
   A curated list of AI tools built, hosted, and governed within the EU.<br>
   Verified for origin. Organized by category. Community-maintained.<br><br>
-  <a href="https://reddit.com/r/eufirst">r/eufirst</a> · <a href="https://reddit.com/r/buyeu">r/buyeu</a> · <a href="https://reddit.com/r/eufounders">r/eufounders</a>
+
 </p>
 
 <p align="center">
