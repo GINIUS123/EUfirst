@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>EU</strong> First<span>.ai</span>
+  <strong>EUfirst<span>.ai</span>
 </p>
 
 <h3 align="center">The open-source directory of EU-sovereign AI tools</h3>
