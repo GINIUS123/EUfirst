@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>EUfirst<span>.ai</span>
+  <strong>EU First<span>.ai</span></strong>
 </p>
 
 <h3 align="center">The open-source directory of EU-sovereign AI tools</h3>
@@ -16,6 +16,10 @@
 
 ---
 
+**Currently tracking: 50+ tools across 16 categories**
+
+---
+
 ## Why This List Exists
 
 US cloud providers hold **85%** of the European cloud market. Over **74%** of European companies depend on US-based services for critical operations. Under the US CLOUD Act, American authorities can compel access to data stored by US companies — even when that data sits on EU soil.
@@ -29,6 +33,7 @@ This list brings those tools together in one place. Every entry is verified for 
 ## Contents
 
 - [LLMs & Foundation Models](#llms--foundation-models)
+- [Sovereign National LLMs](#sovereign-national-llms)
 - [AI Chat & Assistants](#ai-chat--assistants)
 - [Cloud & GPU Infrastructure](#cloud--gpu-infrastructure)
 - [Vector Databases](#vector-databases)
@@ -54,11 +59,12 @@ This list brings those tools together in one place. Every entry is verified for 
 
 | Symbol | Meaning |
 |--------|---------|
-| 🇫🇷 🇩🇪 🇳🇱 🇫🇮 🇪🇪 🇵🇱 🇦🇹 🇱🇻 🇨🇭 🇱🇺 | Country of headquarters |
+| 🇫🇷 🇩🇪 🇳🇱 🇫🇮 🇪🇪 🇵🇱 🇦🇹 🇱🇻 🇨🇭 🇱🇺 🇵🇹 🇩🇰 🇨🇾 | Country of headquarters |
 | `OSS` | Open-source code available |
 | `FREE` | Free tier or free plan available |
 | `API` | Programmatic API access |
 | `SELF-HOST` | Can run on your own EU infrastructure |
+| `GOV` | Government-backed or publicly funded initiative |
 
 ---
 
@@ -70,11 +76,28 @@ EU-headquartered companies building or providing large language models.
 |------|---------|-------------|------|
 | [Mistral AI](https://mistral.ai) | 🇫🇷 France | Frontier open-weight and commercial LLMs. Mistral Large, Mixtral, Mistral 7B. EU-hosted API via Le Plateforme | `OSS` `FREE` `API` |
 | [Aleph Alpha](https://aleph-alpha.com) | 🇩🇪 Germany | Enterprise LLMs (Luminous, PhariaAI). Strong public sector and regulated industry focus. On-premise deployment available | `API` |
+| [LightOn](https://lighton.ai) | 🇫🇷 France | Private LLMs for sensitive and confidential data. On-premise or dedicated EU cloud. Built for organizations that cannot expose internal data to external APIs | `API` `SELF-HOST` |
 | [Bloom](https://huggingface.co/bigscience/bloom) | 🇫🇷 France | 176B parameter open-access multilingual LLM. Trained on 46 languages by the BigScience research collective | `OSS` `FREE` |
 | [Tilde](https://tilde.com) | 🇱🇻 Latvia | 30B+ parameter LLM designed for Baltic and Eastern European languages. Strong on underserved EU languages | `OSS` |
 | [LLaMA on EU infra](https://huggingface.co/meta-llama) | Self-host 🇪🇺 | Meta's open-weight models deployed on Hetzner, OVH, or Scaleway. Not EU-made, but fully EU-controllable when self-hosted | `OSS` `SELF-HOST` |
 
 > **🏛 AI Act note:** LLMs are classified as General Purpose AI (GPAI). Providers must comply with transparency and documentation requirements — active since August 2025.
+
+---
+
+## Sovereign National LLMs
+
+Government-backed AI models built for national language preservation and digital sovereignty. A growing trend across Europe — these models are designed to serve public sector, education, and domestic industry.
+
+| Model | Country | What it does | Tags |
+|-------|---------|-------------|------|
+| [SOOFI](https://www.bmbf.de) | 🇩🇪 Germany | Sovereign Open Source Foundation Models. German government initiative backed by Deutsche Telekom and Leibniz University Hannover. Advanced open-source AI for robotics, administration, and industry | `OSS` `GOV` |
+| [PLLuM](https://pllumai.pl) | 🇵🇱 Poland | Polish Large Language Model. Government-launched, tailored for Polish language inflection and complex syntax. Designed for text generation, document summarization, and education | `OSS` `GOV` |
+| [Apertus](https://public.ai) | 🇨🇭 Switzerland | Swiss AI Initiative model. Available on Public AI platform. Exploring domain-specific models for law, climate, health, and education | `OSS` `GOV` |
+| [Amalia](https://www.fct.unl.pt) | 🇵🇹 Portugal | Portuguese sovereign AI by consortium of universities. Answers questions, generates code, explains concepts, summarizes text in Portuguese with local context. Public release expected mid-2026 | `OSS` `GOV` |
+| [EuroHPC AI](https://eurohpc-ju.europa.eu) | 🇪🇺 EU | EU's public supercomputing initiative providing compute for AI research and sovereign model training across European research centers | `GOV` |
+
+> **💡 Why this matters:** These models represent a shift from depending on US-built AI to building European AI capabilities from the ground up. They prioritize local languages, cultural context, and public-sector use cases that commercial LLMs often ignore.
 
 ---
 
@@ -127,11 +150,11 @@ EU-built tools for developing, training, deploying, and monitoring AI systems.
 
 | Tool | Country | What it does | Tags |
 |------|---------|-------------|------|
+| [Hugging Face](https://huggingface.co) | 🇫🇷 France | The largest open-source ML platform. Model hub, datasets, Spaces, inference API. EU-headquartered in Paris | `OSS` `FREE` `API` |
 | [Jina AI](https://jina.ai) | 🇩🇪 Germany | Embedding, reranking, and search APIs. Multi-modal AI infrastructure for search and retrieval | `FREE` `API` |
 | [Neptune.ai](https://neptune.ai) | 🇵🇱 Poland | ML experiment tracking, model registry, and metadata management | `FREE` `API` |
 | [Valohai](https://valohai.com) | 🇫🇮 Finland | ML pipeline orchestration. Automates training, evaluation, and deployment workflows | `API` |
 | [Dataiku](https://dataiku.com) | 🇫🇷 France | End-to-end AI/ML platform. Data preparation, model building, MLOps, and AI governance in one | `FREE` `API` |
-| [Hugging Face](https://huggingface.co) | 🇫🇷 France | The largest open-source ML platform. Model hub, datasets, Spaces, inference API. EU-headquartered in Paris | `OSS` `FREE` `API` |
 
 ---
 
@@ -141,8 +164,7 @@ EU-built AI tools for documents, collaboration, and daily work.
 
 | Tool | Country | What it does | Tags |
 |------|---------|-------------|------|
-| [DeepL](https://deepl.com) | 🇩🇪 Germany | AI translation consistently outperforming Google Translate on European languages. API for integration | `FREE` `API` |
-| [DeepL Write](https://deepl.com/write) | 🇩🇪 Germany | AI writing assistant for grammar, tone, and style improvements. Supports major EU languages | `FREE` |
+| [DeepL](https://deepl.com) | 🇩🇪 Germany | AI translation and writing assistant. Consistently outperforms Google Translate on European languages. Translation API + DeepL Write for grammar and style | `FREE` `API` |
 | [Nextcloud](https://nextcloud.com) | 🇩🇪 Germany | Self-hosted collaboration platform with AI features — smart inbox, text generation, image recognition, assistant | `OSS` `FREE` `SELF-HOST` |
 | [CryptPad](https://cryptpad.org) | 🇫🇷 France | End-to-end encrypted docs, spreadsheets, presentations, kanban. Zero-knowledge architecture | `OSS` `FREE` `SELF-HOST` |
 | [AppFlowy](https://appflowy.io) | Community | Open-source Notion alternative. Self-hostable. AI features in development | `OSS` `FREE` `SELF-HOST` |
@@ -153,7 +175,6 @@ EU-built AI tools for documents, collaboration, and daily work.
 
 | Tool | Country | What it does | Tags |
 |------|---------|-------------|------|
-| [DeepL](https://deepl.com) | 🇩🇪 Germany | AI-powered translation for 30+ languages. Especially strong on European language pairs | `FREE` `API` |
 | [Tilde MT](https://tilde.com) | 🇱🇻 Latvia | Machine translation specializing in Baltic and lesser-resourced EU languages | `API` |
 | [Lingvanex](https://lingvanex.com) | 🇨🇾 Cyprus | Translation API with on-premise deployment option. 100+ languages | `API` `SELF-HOST` |
 
@@ -222,7 +243,7 @@ Run AI on your own EU infrastructure for maximum sovereignty. Combine these with
 
 > **🏛 AI Act note:** AI in healthcare is classified as **high-risk** under Annex III. Strict requirements for accuracy, transparency, human oversight, and post-market monitoring apply from August 2026.
 
-**Know an EU healthcare AI tool?** [Open an issue →](../../issues/new)
+**Know an EU healthcare AI tool?** [Open an issue →](../../issues/new?template=suggest-tool.md)
 
 ---
 
@@ -234,7 +255,7 @@ Run AI on your own EU infrastructure for maximum sovereignty. Combine these with
 
 > **🏛 AI Act note:** AI used in credit scoring, insurance pricing, and financial risk assessment is **high-risk** under Annex III. These systems must also comply with **DORA** (Digital Operational Resilience Act) requirements for third-party ICT risk management.
 
-**Know an EU financial AI tool?** [Open an issue →](../../issues/new)
+**Know an EU financial AI tool?** [Open an issue →](../../issues/new?template=suggest-tool.md)
 
 ---
 
@@ -244,7 +265,7 @@ Run AI on your own EU infrastructure for maximum sovereignty. Combine these with
 |------|---------|-------------|------|
 | *Contributions welcome* | | EU-built AI for contract analysis, legal research, case prediction | |
 
-**Know an EU legal AI tool?** [Open an issue →](../../issues/new)
+**Know an EU legal AI tool?** [Open an issue →](../../issues/new?template=suggest-tool.md)
 
 ---
 
@@ -256,7 +277,7 @@ Run AI on your own EU infrastructure for maximum sovereignty. Combine these with
 
 > **🏛 AI Act note:** AI used in recruitment, CV screening, promotion decisions, and employee evaluation is **high-risk** under Annex III. These are among the most scrutinized categories. Fines for non-compliance: up to €35M or 7% of global turnover.
 
-**Know an EU HR AI tool?** [Open an issue →](../../issues/new)
+**Know an EU HR AI tool?** [Open an issue →](../../issues/new?template=suggest-tool.md)
 
 ---
 
@@ -266,7 +287,7 @@ Run AI on your own EU infrastructure for maximum sovereignty. Combine these with
 |------|---------|-------------|------|
 | *Contributions welcome* | | EU-built AI for threat detection, compliance automation, audit | |
 
-**Know an EU security AI tool?** [Open an issue →](../../issues/new)
+**Know an EU security AI tool?** [Open an issue →](../../issues/new?template=suggest-tool.md)
 
 ---
 
@@ -328,40 +349,13 @@ Run AI on your own EU infrastructure for maximum sovereignty. Combine these with
 
 Contributions are welcome and encouraged. This list grows through the community.
 
-### How to contribute
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines, inclusion criteria, and style guide.
 
-**Easiest:** [Open an issue](../../issues/new) with the tool name, website, country of HQ, and a short description. We'll add it.
+### Quick contribution
+
+**Easiest:** [Open an issue](../../issues/new?template=suggest-tool.md) with the tool name, website, country of HQ, and a short description. We'll add it.
 
 **Faster:** Submit a pull request editing this README directly.
-
-### Inclusion criteria
-
-✅ **Company is headquartered** in the EU, EEA, UK, or Switzerland
-
-✅ **OR** the tool is open-source and can be self-hosted on EU infrastructure
-
-✅ The tool is **related to AI** — models, infrastructure, dev tools, AI-powered applications, or AI governance
-
-✅ The tool is **actively maintained** (updated within the last 12 months)
-
-✅ The tool is **usable today** — no vaporware, no "coming soon" without a working product
-
-### Exclusion criteria
-
-❌ US or Chinese companies that merely have EU data centers — hosting location alone is not sovereignty
-
-❌ Companies acquired by non-EU parent companies (unless still independently operated under EU jurisdiction)
-
-❌ Tools with no working product or public access
-
-❌ Duplicate entries across categories (list each tool once in its primary category)
-
-### What makes a great contribution
-
-- Include the tool's **country of HQ** (not just where it has an office)
-- Note if it's **open source** and link to the repo
-- Mention if it has a **free tier**
-- If you're affiliated with the tool, **disclose it** in your PR description — transparency builds trust
 
 ---
 
@@ -387,7 +381,7 @@ For our scoring methodology: **[eufirst.ai/methodology](https://eufirst.ai/metho
 
 ## Star History
 
-If this list is useful to you, consider giving it a ⭐ — it helps more people find EU-sovereign AI tools.
+[![Star History Chart](https://api.star-history.com/svg?repos=GINIUS123/EUfirst&type=Date)](https://star-history.com/#GINIUS123/EUfirst&Date)
 
 ---
 
