@@ -285,7 +285,7 @@ Run AI on your own EU infrastructure for maximum sovereignty. Combine these with
 
 | Tool | Country | What it does | Tags |
 |------|---------|-------------|------|
-| *Contributions welcome* | | EU-built AI for threat detection, compliance automation, audit | |
+| [BitAtlas](https://bitatlas.com) | 🇳🇱 Netherlands | Zero-knowledge encrypted cloud drive for humans and AI agents. Client-side AES-256-GCM encryption — the server never sees plaintext. MCP server for AI agent integration. Hosted on Hetzner (Germany) | `OSS` `FREE` `API` `SELF-HOST` |
 
 **Know an EU security AI tool?** [Open an issue →](../../issues/new?template=suggest-tool.md)
 
