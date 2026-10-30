@@ -329,6 +329,7 @@ Run AI on your own EU infrastructure for maximum sovereignty. Combine these with
 - [EU Alternative](https://eualternative.eu/) — EU SaaS alternatives
 - [GoEuropean](https://goeuropean.org/) — Community-driven EU product directory with browser extension
 - [Switch-to.eu](https://switch-to.eu/) — EU tech swap recommendations
+- [KI-EU-Verzeichnis](https://mvepoint.github.io/ki-eu-verzeichnis/) — German-language directory of AI tools with EU/German hosting for SMBs. Every hosting, DPA and price claim links to the vendor's own page with a check date.
 
 ### Communities
 
