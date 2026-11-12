@@ -130,6 +130,7 @@ EU-headquartered providers for hosting AI workloads. No US hyperscalers.
 | [Fuga Cloud](https://fuga.cloud) | 🇳🇱 Netherlands | OpenStack-based cloud. Amsterdam data center. Dutch-owned | `API` |
 | [Gcore](https://gcore.com) | 🇱🇺 Luxembourg | Edge cloud, CDN, and AI inference. EU-headquartered. Strong edge network across Europe | `API` |
 | [Infomaniak](https://infomaniak.com) | 🇨🇭 Switzerland | Swiss cloud and hosting. Runs on 100% renewable energy. Privacy-first approach | `API` |
+| [Lyceum](https://lyceum.technology) | 🇩🇪 Germany | Sovereign European inference provider for open-source models, founded 2025 in Berlin (€10.3M pre-seed led by redalpine). One OpenAI-compatible API for Kimi, GLM, DeepSeek and Qwen, serverless in Paris and Finland, prompts not stored; also GPU VMs billed per second | `API` |
 
 ---
 
