@@ -155,6 +155,7 @@ EU-built tools for developing, training, deploying, and monitoring AI systems.
 | [Neptune.ai](https://neptune.ai) | 🇵🇱 Poland | ML experiment tracking, model registry, and metadata management | `FREE` `API` |
 | [Valohai](https://valohai.com) | 🇫🇮 Finland | ML pipeline orchestration. Automates training, evaluation, and deployment workflows | `API` |
 | [Dataiku](https://dataiku.com) | 🇫🇷 France | End-to-end AI/ML platform. Data preparation, model building, MLOps, and AI governance in one | `FREE` `API` |
+| [Standard Compute](https://standardcompute.com) | 🇳🇴 Norway | LLM gateway for companies: one API to frontier and open models. A Europe rule per company, team or key sends every request, including retries and fallbacks, only to approved European inference endpoints; EU gateway in Finland, account data in Frankfurt | `API` |
 
 ---
 
